@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pocketpolice_">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        >
+        <activity android:name=".num_bookmark_2"></activity>
+        <activity android:name=".destination_bookmark_2" />
+        <activity android:name=".configuration_num_2" />
+        <activity android:name=".Configuration_destination_2" />
+        <activity android:name=".MapPage_5" />
+        <activity android:name=".Arriving_4" />
+        <activity android:name=".Acting_3" />
+        <activity android:name=".Configuration_2" />
+        <activity android:name=".Home_2" />
+        <activity android:name=".Signup_1" />
+        <activity android:name=".Login_1" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

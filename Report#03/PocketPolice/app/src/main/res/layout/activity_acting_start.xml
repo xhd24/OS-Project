@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Acting_3"
+    tools:ignore="ExtraText"
+    android:background="#696969"
+    >
+
+    <item
+        android:id="@+id/action_setting"
+        android:title="설정"
+        app:showAsAction="never"
+        tools:ignore="MissingConstraints" />
+
+<Button
+    android:fontFamily="@font/font_family"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="도착"
+    android:id="@+id/button1"
+    android:background="@drawable/button_arrival"
+    android:textSize="25dp"
+    android:layout_marginTop="10dp"
+    tools:ignore="MissingConstraints"></Button>
+
+
+
+</RelativeLayout>

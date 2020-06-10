@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+        <menu xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            tools:context=".MainActivity">
+
+            <item android:id="@+id/icon"
+                android:title="icon"
+                android:icon="@drawable/pocketpolice"
+                app:showAsAction="always"
+                />
+
+            <item android:id="@+id/action_button2"
+                app:showAsAction="always|withText" />
+            <item android:id="@+id/action_setting"
+                android:title="설정"
+                app:showAsAction="ifRoom"/>
+            <item android:id="@+id/action_about"
+                android:title="문의하기"
+                app:showAsAction="ifRoom"/>
+        </menu>
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+        <item name="android:editTextStyle">@style/EditTextStyle</item>
+    </style>
+    
+    <style name="TextViewStyle" parent="@android:style/Widget.DeviceDefault.TextView">
+        <item name="android:fontFamily">@font/nanumsquareroundb</item>
+    </style>
+
+    <style name="ButtonStyle" parent="@android:style/Widget.DeviceDefault.Button.Borderless">
+        <item name="android:fontFamily">@font/nanumsquareroundb</item>
+    </style>
+    <style name="EditTextStyle" parent="@android:style/Widget.DeviceDefault.EditText">
+        <item name="android:fontFamily">@font/nanumsquareroundb</item>
+    </style>
+
+</resources>
